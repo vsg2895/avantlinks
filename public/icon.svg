@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42">
+  <!-- AvantLinks mark: a LETTER A BUILT AS A RISING STROKE. A teal plate with
+       a 10px radius, a white chevron drawn in one unbroken line from the
+       bottom left up to the apex and down to the bottom right, and a pale-cyan
+       crossbar through it.
+
+       It reads two ways at once, which is the whole reason it is this shape:
+       as the A of Avant, and as a line going up. The same diagonal is what the
+       hero's `.hatch` band repeats.
+
+       The first <rect fill> is what app/apple-icon.tsx reads as the 180x180
+       background plate — the teal, so iOS composites the chevron onto the
+       brand colour rather than onto black. It is drawn across the full viewBox
+       with the mark's own 10px radius, which is the plate rung of this site's
+       radius ladder.
+
+       src/app/favicon.ico is the same artwork rasterised at 16/32/48 — see
+       scripts/make-favicon.py. -->
+  <rect width="42" height="42" rx="10" fill="#0e4f5c"/>
+  <path d="M9 33L21 8l12 25" fill="none" stroke="#ffffff" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M15.5 24.5h11" stroke="#7fcad2" stroke-width="4.4" stroke-linecap="round"/>
+</svg>
